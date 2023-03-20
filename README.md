@@ -1,4 +1,4 @@
-# Prejeto-ArcadeProjeto-Arcade
+# Prejeto-Arcade
 Atividade de programação com o objetivo de desenvolver três jogos em linguagem C.
 
 -Primeiro jogo: Perguntas e respostas. Nele serão feitas cinco perguntas de múltipla escolha e ao final serão mostradas a quantidade de acertos do jogador.
