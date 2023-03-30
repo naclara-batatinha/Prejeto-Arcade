@@ -7,8 +7,8 @@
 ## Instruções
 
     - Primeiro Jogo
-        Perguntas e Respostas: Um jogo o qual será realizado cinco perguntas de múltipla escolha e ao final serão 
-        mostradas a quantidade de acertos do jogador.
+        Perguntas e Respostas: Um jogo o qual será realizado cinco perguntas de múltipla escolha e ao final 
+        serão mostradas a quantidade de acertos do jogador.
 
     - Segundo Jogo
         Cobra na Caixa: Dois jogadores precisam escolher em turnos, uma das cinco caixas disponíveis e tentar 
