@@ -24,7 +24,7 @@ int main()
         printf("\t\t\t BBBB  EEEEE M     M        V     IIIIIII N    NN DDDD    OOOO  SSS    ");
         printf("\n\n\n");
         printf("\n\n");
-        // opÁıes para o jogador
+        // op√ß√µes para o jogador
         printf("\t\t\t\t                  |  SELECIONE O JOGO  |                  \n\n\n");
         printf("\t\t|1| - PERGUNTAS E RESPOSTAS                               \n");
         printf("\t\t|2| - COBRA NA CAIXA                                      \n");
@@ -65,7 +65,7 @@ void jogo1()
 
         system("cls || clear");
         printf("\t\n ========== PERGUNTAS E RESPOSTAS ==========\n");
-        printf("\t\nGostaria de comeÁar? \t|1|-SIM ou |2|-N√O");
+        printf("\t\nGostaria de come√ßar? \t|1|-SIM ou |2|-N√ÉO");
         printf("\n ==>");
         scanf("%d", &opcao);
 
@@ -73,11 +73,11 @@ void jogo1()
         {
 
             system("cls || clear");
-            printf("\n | O que È sociofobia? | \n"); // PRIMEIRA PERGUNTA
-            printf("\n|1| - Medo de ter sÛcios");
+            printf("\n | O que √© sociofobia? | \n"); // PRIMEIRA PERGUNTA
+            printf("\n|1| - Medo de ter s√≥cios");
             printf("\n|2| - Medo de tomar um soco");
             printf("\n|3| - Medo da sociedade");
-            printf("\n|4| - Medo de ser soci·vel \n");
+            printf("\n|4| - Medo de ser soci√°vel \n");
             printf("\n ==> Digite a resposta: ");
             scanf("%d", &resp1);
 
@@ -92,7 +92,7 @@ void jogo1()
             }
             else
             {
-                printf("\t\n -- Resposta Inv·lida -- \n\n\n");
+                printf("\t\n -- Resposta Inv√°lida -- \n\n\n");
             }
             getch();
             system("cls || clear");
@@ -117,11 +117,11 @@ void jogo1()
 
             else
             {
-                printf("\t\n -- Resposta Inv·lida -- \n\n");
+                printf("\t\n -- Resposta Inv√°lida -- \n\n");
             }
             getch();
             system("cls || clear");
-            printf("\n| Quem foi a ˙nica pessoa na histÛria a receber o PrÍmio Nobel em ·reas cientÌficas diferentes? | \n"); // TERCEIRA PERGUNTA
+            printf("\n| Quem foi a √∫nica pessoa na hist√≥ria a receber o Pr√™mio Nobel em √°reas cient√≠ficas diferentes? | \n"); // TERCEIRA PERGUNTA
             printf("\n|1| - Marie Curie");
             printf("\n|2| - Albert Einstein");
             printf("\n|3| - Stephen Hawking");
@@ -142,14 +142,14 @@ void jogo1()
 
             else
             {
-                printf("\t\n -- Resposta Inv·lida -- \n\n");
+                printf("\t\n -- Resposta Inv√°lida -- \n\n");
             }
             getch();
             system("cls || clear");
-            printf("\n| Qual foi a cÈlebre invenÁ„o feita por Robert Kahn e Vint Cerf? | \n"); // QUARTA PERGUNTA
-            printf("\n|1| - Televis„o");
+            printf("\n| Qual foi a c√©lebre inven√ß√£o feita por Robert Kahn e Vint Cerf? | \n"); // QUARTA PERGUNTA
+            printf("\n|1| - Televis√£o");
             printf("\n|2| - Internet");
-            printf("\n|3| - R·dio-gravador");
+            printf("\n|3| - R√°dio-gravador");
             printf("\n|4| - Notebook \n");
             printf("\n ==> Digite a reposta: ");
             scanf("%d", &resp4);
@@ -167,11 +167,11 @@ void jogo1()
 
             else
             {
-                printf("\t\n -- Resposta Inv·lida -- \n\n");
+                printf("\t\n -- Resposta Inv√°lida -- \n\n");
             }
             getch();
             system("cls || clear");
-            printf("\n| Quem È o criador de Star Wars? |\n"); // QUINTA PERGUNTA
+            printf("\n| Quem √© o criador de Star Wars? |\n"); // QUINTA PERGUNTA
             printf("\n|1| - George Lucas");
             printf("\n|2| - Steven Spielberg");
             printf("\n|3| - Woody Allen");
@@ -191,7 +191,7 @@ void jogo1()
             }
             else
             {
-                printf("\t\n -- Resposta Inv·lida -- \n\n");
+                printf("\t\n -- Resposta Inv√°lida -- \n\n");
             }
             getch();
             system("cls || clear");
@@ -216,7 +216,7 @@ void jogo1()
             else
             {
                 getch();
-                printf("Valor inv·lido\n");
+                printf("Valor inv√°lido\n");
                 escolha1 = 1;
             }
         }
@@ -224,7 +224,7 @@ void jogo1()
         else if (opcao == 2)
         {
             system("cls || clear");
-            printf("\t\nRetornar ao menu? \t|1|-SIM |2|-N√O\n");
+            printf("\t\nRetornar ao menu? \t|1|-SIM |2|-N√ÉO\n");
             scanf("%d", &opcaoReturn);
             if (opcaoReturn == 1)
             {
@@ -241,7 +241,7 @@ void jogo1()
         {
             getch();
 
-            printf("Informe um valor v·lido");
+            printf("Informe um valor v√°lido");
             escolha1 = 1;
         }
     } while (escolha1 != 0);
@@ -268,8 +268,8 @@ void jogo2()
     }
     system("cls || clear");
     printf("\t\n ========== COBRA NA CAIXA ==========\n\n");
-    printf("DescriÁ„o: VocÍ e seu colega de trabalho estavam explorando a tumba do faraÛ Neebe quando entraram em uma grande sala com escrituras na parede. Enquanto inspecionavam as escrituras, vocÍs acidentalmente pressionaram um bot„o escondido que lacrou as portas, prendendo-os l· dentro. Ent„o, cinco caixas apareceram no centro da sala, uma delas contendo o bot„o para abrir as portas, mas uma delas contem uma cobra mortal! VocÍs decidem jogar turnos para abrir uma caixa de cada vez, na esperanÁa de n„o encontrar a cobra.\n\n");
-    printf("\t\nGostaria de comeÁar? \t|1|-SIM ou |2|-N√O");
+    printf("Descri√ß√£o: Voc√™ e seu colega de trabalho estavam explorando a tumba do fara√≥ Neebe quando entraram em uma grande sala com escrituras na parede. Enquanto inspecionavam as escrituras, voc√™s acidentalmente pressionaram um bot√£o escondido que lacrou as portas, prendendo-os l√° dentro. Ent√£o, cinco caixas apareceram no centro da sala, uma delas contendo o bot√£o para abrir as portas, mas uma delas contem uma cobra mortal! Voc√™s decidem jogar turnos para abrir uma caixa de cada vez, na esperan√ßa de n√£o encontrar a cobra.\n\n");
+    printf("\t\nGostaria de come√ßar? \t|1|-SIM ou |2|-N√ÉO");
     printf("\n ==>");
     scanf("%d", &opcao);
 
@@ -300,7 +300,7 @@ void jogo2()
             {
                 getch();
                 system("cls || clear");
-                printf("\nOpÁ„o inv·lida. Escolha uma caixa entre 1 e 5 que n„o tenha sido aberta:\n--> ");
+                printf("\nOp√ß√£o inv√°lida. Escolha uma caixa entre 1 e 5 que n√£o tenha sido aberta:\n--> ");
                 scanf("%d", &escolhaJogador1);
             }
 
@@ -309,7 +309,7 @@ void jogo2()
             if (escolhaJogador1 == cobra)
             {
                 system("cls || clear");
-                printf("\n%s, vocÍ encontrou a cobra! Perdeu!\n", jogador1);
+                printf("\n%s, voc√™ encontrou a cobra! Perdeu!\n", jogador1);
                 getch();
                 break;
             }
@@ -317,7 +317,7 @@ void jogo2()
             else if (escolhaJogador1 == botao)
             {
                 system("cls || clear");
-                printf("\n%s, vocÍ achou o bot„o!\n", jogador1);
+                printf("\n%s, voc√™ achou o bot√£o!\n", jogador1);
                 getch();
                 break;
             }
@@ -333,7 +333,7 @@ void jogo2()
             else if (caixas[escolhaJogador1] == 1)
             {
                 system("cls || clear");
-                printf("\n%s, essa caixa j· foi aberta\n", jogador1);
+                printf("\n%s, essa caixa j√° foi aberta\n", jogador1);
                 printf("\nEscolha outra caixa: \n");
                 scanf("%d", &escolhaJogador1);
                 getch();
@@ -350,7 +350,7 @@ void jogo2()
             while (escolhaJogador2 < 1 || escolhaJogador2 > 5 || caixas[escolhaJogador2 - 1] == 1)
             {
                 system("cls || clear");
-                printf("\nOpÁ„o inv·lida. Escolha uma caixa entre 1 e 5 que n„o tenha sido aberta:\n--> ");
+                printf("\nOp√ß√£o inv√°lida. Escolha uma caixa entre 1 e 5 que n√£o tenha sido aberta:\n--> ");
                 scanf("%d", &escolhaJogador2);
                 getch();
             }
@@ -360,7 +360,7 @@ void jogo2()
             if (escolhaJogador2 == cobra)
             {
                 system("cls || clear");
-                printf("\n%s, vocÍ encontrou a cobra! Perdeu!\n", jogador2);
+                printf("\n%s, voc√™ encontrou a cobra! Perdeu!\n", jogador2);
                 getch();
                 break;
             }
@@ -368,7 +368,7 @@ void jogo2()
             else if (escolhaJogador2 == botao)
             {
                 system("cls || clear");
-                printf("\n%s, vocÍ achou o bot„o!\n", jogador2);
+                printf("\n%s, voc√™ achou o bot√£o!\n", jogador2);
                 getch();
                 break;
             }
@@ -384,7 +384,7 @@ void jogo2()
             else if (caixas[escolhaJogador2] == 1)
             {
                 system("cls || clear");
-                printf("\n%s, essa caixa j· foi aberta\n", jogador2);
+                printf("\n%s, essa caixa j√° foi aberta\n", jogador2);
                 printf("\nEscolha outra caixa: \n");
                 scanf("%d", &escolhaJogador2);
                 getch();
@@ -411,7 +411,7 @@ void jogo2()
 
         else
         {
-            printf("Valor inv·lido\n");
+            printf("Valor inv√°lido\n");
             system("cls || clear");
             escolha2 = 1;
         }
@@ -420,7 +420,7 @@ void jogo2()
     else if (opcao == 2)
     {
         system("cls || clear");
-        printf("\t\nRetornar ao menu? \t|1|-SIM |2|-N√O\n");
+        printf("\t\nRetornar ao menu? \t|1|-SIM |2|-N√ÉO\n");
         scanf("%d", &opcaoReturn);
         if (opcaoReturn == 1)
         {
@@ -434,7 +434,7 @@ void jogo2()
     }
     else
     {
-        printf("Informe um valor v·lido");
+        printf("Informe um valor v√°lido");
         system("cls || clear");
         escolha2 = 1;
     }
@@ -457,8 +457,8 @@ void jogo3()
     // INTRODU??OO DO JOGO
     system("cls || clear");
 	printf("\t\n ========== GOUSMAS WAR ==========\n");
-    printf("\t\nVOCE ACABA DE ENTRAR NAS TERRAS M¡GICAS DE LIIMA\n");
-    printf("SE PREPARE PARA UMA AVENTURA CHEIA DE F⁄RIA\n\n");
+    printf("\t\nVOCE ACABA DE ENTRAR NAS TERRAS M√ÅGICAS DE LIIMA\n");
+    printf("SE PREPARE PARA UMA AVENTURA CHEIA DE F√öRIA\n\n");
     printf("\t\nDigite |1| para iniciar sua jornada");
     printf("\n ==> ");
     scanf("%d", &opcao);
@@ -504,16 +504,16 @@ void jogo3()
             case 1:
                 int gousma_ataque, gousma_defesa;
 
-                printf("Escolha a Gousma que ir· atacar (1 ou 2): ");
+                printf("Escolha a Gousma que ir√° atacar (1 ou 2): ");
                 scanf("%d", &gousma_ataque);
 
-                printf("Escolha a Gousma que ser· atacada (1 ou 2): ");
+                printf("Escolha a Gousma que ser√° atacada (1 ou 2): ");
                 scanf("%d", &gousma_defesa);
 
                 if ((jogador_atual == 0 && nivel_furia_jogador1[0] < gousmas_jogador1[gousma_ataque - 1]) ||
                     (jogador_atual == 1 && nivel_furia_jogador2[0] >= gousmas_jogador2[gousma_ataque - 1]))
                 {
-                    printf("Jogada inv·lida! Tente novamente.\n");
+                    printf("Jogada inv√°lida! Tente novamente.\n");
                 }
                 else
                 {
@@ -533,13 +533,13 @@ void jogo3()
 
                     if (jogador_atual == 0 && nivel_furia_jogador1[0] > 5)
                     {
-                        printf("Gousma %d do Jogador 1 foi destruÌda!\n\n", gousma_ataque);
+                        printf("Gousma %d do Jogador 1 foi destru√≠da!\n\n", gousma_ataque);
 
                         gousmas_jogador1[gousma_ataque - 1] = 0;
                     }
                     else if (jogador_atual == 1 && nivel_furia_jogador2[0] > 5)
                     {
-                        printf("Gousma %d do Jogador 2: foi destruÌda!\n\n", gousma_ataque);
+                        printf("Gousma %d do Jogador 2: foi destru√≠da!\n\n", gousma_ataque);
 
                         nivel_furia_jogador2[0] = 0;
                     }
@@ -551,13 +551,13 @@ void jogo3()
             case 2:
                 int gousma_origem;
 
-                printf("Escolha a Gousma que ir· dividir (1 ou 2): ");
+                printf("Escolha a Gousma que ir√° dividir (1 ou 2): ");
                 scanf("%d", &gousma_origem);
 
                 if ((jogador_atual == 0 && gousmas_jogador1[gousma_origem - 1] > 2) ||
                     (jogador_atual == 1 && gousmas_jogador2[gousma_origem - 1] > 2))
                 {
-                    printf("Jogada inv·lida! Tente novamente.\n");
+                    printf("Jogada inv√°lida! Tente novamente.\n");
                 }
                 else
                 {
@@ -582,7 +582,7 @@ void jogo3()
                 break;
 
             default:
-                printf("Jogada inv·lida! Tente novamente.\n");
+                printf("Jogada inv√°lida! Tente novamente.\n");
             }
 
             printf("\n\t========== FIM DE JOGO ========== \n\n");
@@ -603,7 +603,7 @@ void jogo3()
             }
             else
             {
-                printf("Valor inv·lido");
+                printf("Valor inv√°lido");
                 system("cls || clear");
                 escolha3 = 1;
             }
@@ -611,7 +611,7 @@ void jogo3()
         if (opcao == 2)
         {
             system("cls || clear");
-            printf("\t\nRetornar ao menu? \t|1|-SIM |2|-N√O\n");
+            printf("\t\nRetornar ao menu? \t|1|-SIM |2|-N√ÉO\n");
             scanf("%d", &opcaoReturn);
 
             if (opcaoReturn == 1)
@@ -626,7 +626,7 @@ void jogo3()
         }
         else
         {
-            printf("Informe um valor v·lido! \n");
+            printf("Informe um valor v√°lido! \n");
             escolha3 = 1;
         }
     }
